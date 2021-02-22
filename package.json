@@ -1,0 +1,28 @@
+{
+  "name": "@art-of-coding/compose",
+  "version": "1.0.0",
+  "description": "A small middleware composer that uses async/await",
+  "main": "./dist/index.js",
+  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+  "homepage": "https://github.com/Art-of-Coding/compose",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Art-of-Coding/compose"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "keywords": [
+    "middleware",
+    "async",
+    "await",
+    "compose"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
