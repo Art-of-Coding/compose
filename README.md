@@ -14,7 +14,7 @@ npm i @art-of-coding/compose
 #### compose()
 
 ```ts
-compose<TContext = any> (...middlewares: MiddlewareFunction<TContext>[]) => MiddlewareFunction<TContext>
+compose<TContext = any> (...middlewares: Middleware<TContext>[]) => Middleware<TContext>
 ```
 
 Composes the middlewares into a single middleware function.
