@@ -11,7 +11,7 @@ export interface Middleware<TContext> {
  */
 export default function compose<TContext = any> (...stack: Middleware<TContext>[]): Middleware<TContext> {
   if (!stack.length) {
-    throw new TypeError('compose() expexts at least one middleware')
+    throw new TypeError('compose() expects at least one middleware')
   }
 
   return async function composed (ctx: TContext, next?: () => Promise<void>) {
